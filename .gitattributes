@@ -1,0 +1,13 @@
+# Text file normalization
+# Generated on 2026-11-05
+# This file is used to override language statistics 
+* text=auto
+public/**/*.html linguist-vendored
+public/** linguist-vendored
+*.tsx linguist-detectable 
+yarn.lock linguist-generated
+src/**/*.tsx linguist-detectable
+
+*.yaml linguist-detectable=false
+build/* linguist-vendored
+# eof dfd160d0
